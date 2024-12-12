@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="icon"   href="https://cdn.pixabay.com/photo/2016/02/08/19/58/heart-1187486_1280.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;400;700&display=swap">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&display=swap" rel="stylesheet">
+<script src="resume.js"></script>
+</head>
+
+<body >
+
+
+<h1 style="text-align: center;">To See MY RESUME Enter Correct Password </h1>
+<h3 style="text-align: center; color: brown;">POWERFUL PEOPLE MAKE PLACES POWERFUL</h3>
+<label  for="password" style="margin-left: 35em;" >PASSWORD :</label>
+    <input  class="submit" type="password" id="password" placeholder="ENTER PASSWORD" >
+    <button class="submit" onclick="pass()">GO👇</button> 
+    🧐👉 <button class="submit" id="vanish" onclick="doller()">?</button>
+
+
+
+
+
+    <div id="resume1" style="display: none; background-image: url('https://www.baltana.com/files/wallpapers-2/Dark-Background-HD-Photos-04529.jpeg');">
+    <h1 class="title">MY RESUME</h1>
+    <hr>
+    
+    <div  class="container"> 
+        <img  class="photo" src="/images/back pose.jpg" alt="My Photo"> 
+        <h2 class="name">NAME:<br>
+        DEPT:<br>
+    YEAR:<br>
+  DOB  :
+  <br></h2>
+
+
+
+        <h2 CLASS="ans" style="margin-top:2em ;">
+            Shankar.L
+            <br>CSE-D
+            <br>I<sup>st</sup>YEAR
+            
+        <br>21/05/2007</h2>
+        
+     </div>
+     <br>
+<div style="display: flex;">
+     <button title="click to see my skills"class="skills" onclick="skills()">💪SKILLS</button> 
+     <button title="click to see known languages" class="lan" onclick="lan()">📖Languages</button><br>
+     <button class="edu" onclick="edu()">🏫Education</button>
+     <button class="ct" onclick="ct()">🧾Certificates</button>
+     <br><button onclick="add()" class="add">📞Contact info</button>
+<button class="skills" onclick="audio()">Mute Audio</button>
+     <audio style="display: none;" id="audio" autoplay loop controls src="/audios/Kgf - Bgm _ Instrumental.mp3"></audio>
+     </div>
+     <br>
+
+
+
+
+
+<ol style="display: none;" id="skills"><br>
+    <caption>SKILLS</caption><br>
+    <li class="li">MS word</li><br>
+    <li class="lii">MS Excel</li><br>
+    <li class="li">MS powerpoint</li><br>
+    <li class="lii">Teamwork</li><br>
+    <li class="li">Leadership</li><br>
+    <li class="lii">Time Management</li><br>
+    <li class="li">problem-solving</li><br>
+    <li class="lii">Quick understanding</li><br>
+    <li class="li">Story telling</li><br>
+    <li class="lii">Creative thinking</li><br>
+ </ol>
+ 
+ <ul id="lan" style="display: none;"><br>
+    <caption>known languages</caption><br>
+    <li class="li">TAMIL-Native</li><br>
+    <li class="li">ENGISH-Intermediate</li>
+ </ul>
+
+ 
+ <table id="edu" style="display: none;">
+    <tr>
+        <th>Education</th>
+        <th>Total mark </th>
+        <th>Gained mark</th>
+    </tr>
+    <tr>
+        <td>10th standard </td>
+        <td>500</td>
+        <td>434</td>
+    </tr>
+    <tr>
+        <td>12th standard</td>
+        <td>600</td>
+        <td>547</td>
+    </tr>
+ </table>
+
+ <br>
+ 
+ <div style="display: none;" id="ct">
+    <caption><h2 style="color: rgb(0, 6, 12); background-color: rgb(244, 240, 240);">certificates</h2></caption>
+    <a target="_blank" href="/images/Introduction to HTML_certificate.jpg"><h2 style="color: blue;" >HTML BASICS</h2></a>
+    <a target="_blank" href="/images/Introduction to CSS_certificate.jpg"><h2 style="color: blue;"  >CSS BASICS</h2></a>
+
+ </div>
+ <address id="add" style="display:none;">
+    <hr><hr>
+    ADDRESS: 158, olappalayam,<br>nagadhevanpalayam,gobi,Erode. <br> 
+    <br>PHONE NO: 6382322466<br>
+    <br>EMAIL: shankar.l5252@gmail.com <br><br>
+    <h2>SOCIAL MEDIA</h2>
+
+    <a href="https://www.instagram.com/nukes_shankar/profilecard/?igsh=bW91aDV0bWVvb3Bt" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" height="100px" width="100px"></a><br>
+
+    <a href="https://www.linkedin.com/in/shankar-l-ba3075328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG29.png" height="100px" width="100px"></a><br>
+    <button onclick="vid()"   class="lan" ><a style="color: white;" href="https://media.tenor.com/cwPb4FfXpyMAAAAM/iron-man-happy-dance.gif" target="_blank">LIKE👍</a></button><br>
+     <a href="/videos/lv_0_20241011144051.mp4" target="_blank"><p id="vid" style="display: none;" class="submit"> my secret</p></a>
+     
+</address>
+</div>
+</body>
+</html>

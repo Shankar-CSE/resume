@@ -1,0 +1,127 @@
+.title{
+    font-family: 'Lobster', cursive;
+     text-align: center; 
+
+     
+
+     margin-right: 5em;
+     margin-left: 5em;
+
+     color: #d9ff67;
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 30px #00b3ff, 0 0 40px #00b3ff;
+
+}
+.photo{
+    width: 20%; 
+    height: 20%;
+
+    margin-left: 5em;
+    margin-top: 20px;
+    
+}
+.container { 
+    border: 20px solid green;
+    display: flex;
+     
+     background-color: aqua;
+    }
+    .name{
+        margin: 2em;
+        text-align: top;
+        font-family: "IBM Plex Serif", serif;
+        font-weight: 1000;
+        font-style: normal;
+    }
+    .ans{
+        
+        margin-top: 100px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+     text-align: top; 
+     line-height: 35px;
+    }
+    .skills{
+             color: white;
+             background-color: blue; 
+             font-size: 20px;
+             border-radius: 2em;
+    }
+    #skills,#lan{
+        color:rgb(255, 0, 0);
+       
+        font-size: 20px;
+        
+}
+#lan{
+    color:rgb(226, 23, 159);
+   
+    font-size: 20px;
+}
+table,th,td{
+    border: 5px solid black;
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #fff;
+}
+td:nth-child(odd){
+    background-color: aqua;
+}
+}
+.glow {
+    color: #fff;
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 30px #00b3ff, 0 0 40px #00b3ff;
+}
+
+.lan{
+    color: white;
+             background-color: rgb(255, 0, 0); 
+             font-size: 20px;
+             border-radius: 2em;
+}
+.edu{
+    color: white;
+             background-color: rgb(255, 0, 170); 
+             font-size: 20px;
+             border-radius: 2em;
+}
+.ct{
+    color: white;
+             background-color: rgb(0, 166, 255); 
+             font-size: 20px;
+             border-radius: 2em;
+}
+.add{
+    color: white;
+             background-color: rgb(0, 255, 94); 
+             font-size: 20px;
+             border-radius: 2em;
+
+}
+#resume1{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     text-align: center;
+}
+.li{
+    background-color: black;
+}
+.lii{
+    background-color: rgb(255, 255, 255);
+}
+#add{
+    color: #00b3ff;
+    background-color: #050505;
+}
+.submit:hover,.add:hover,.ct:hover,.edu:hover,.lan:hover,.skills:hover{
+    color: rgb(11, 140, 183);
+}
+.submit{
+    color: rgb(18, 17, 17);
+            
+             font-size: 20px;
+             border-radius: 2em;
+} 
+
+
